@@ -1,5 +1,5 @@
 {
-  "name": "libxmljs-mt",
+  "name": "libxmljs-cfm",
   "author": "Marco Rogers",
   "contributors": [
     "Jeff Smick",
@@ -7,7 +7,7 @@
     "Martin von Gagern <Martin.vGagern@gmx.net>"
   ],
   "description": "multi-threaded libxml bindings for v8 javascript engine",
-  "version": "0.17.0",
+  "version": "0.17.2-dev",
   "scripts": {
     "test": "node --expose_gc node_modules/nodeunit/bin/nodeunit test"
   },
