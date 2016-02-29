@@ -1,5 +1,28 @@
-# Libxmljs
+# @klortho/libxmljs
+
 [![Build Status](https://secure.travis-ci.org/polotek/libxmljs.svg?branch=master)](http://travis-ci.org/polotek/libxmljs)
+
+# Fork of polotek/libxmljs
+
+Package @klortho/libxmljs, version 0.17.2.
+
+This is a fork of [polotek/libxmljs](https://github.com/polotek/libxmljs).
+I opened [this pull request](https://github.com/polotek/libxmljs/pull/388), 
+but I haven't gotten any response. This fork adds the ability to set the
+base-url for XML files, so that references to DTDs, for example, will work.
+
+That pull request is from the *master* branch, here. So, I set the default
+branch to cfm-baseurl-for-xml, and published my new version from here.
+
+See also the cfm-libxmljs-mt branch, which was where I started -- forked from
+[libxmljs-mt](https://github.com/gagern/libxmljs). I had originally 
+submitted [this PR on that repo](https://github.com/gagern/libxmljs/pull/7), but
+the author there suggested that I submit my PR upstream, so that's
+what I did.
+
+I gave it version 0.17.2, which is one patch up from libxmljs-mt.
+
+----
 
 LibXML bindings for [node.js](http://nodejs.org/)
 

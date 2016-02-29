@@ -1,20 +1,20 @@
 {
-  "name": "libxmljs",
+  "name": "@klortho/libxmljs",
   "author": "Marco Rogers",
   "contributors": [
-    "Jeff Smick"
+    "Jeff Smick", "Chris Maloney"
   ],
   "description": "libxml bindings for v8 javascript engine",
-  "version": "0.17.1",
+  "version": "0.17.2",
   "scripts": {
     "test": "node --expose_gc ./node_modules/.bin/nodeunit test"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/polotek/libxmljs.git"
+    "url": "http://github.com/klortho/libxmljs.git"
   },
   "bugs": {
-    "url": "http://github.com/polotek/libxmljs/issues"
+    "url": "http://github.com/klortho/libxmljs/issues"
   },
   "main": "./index",
   "license": "MIT",
