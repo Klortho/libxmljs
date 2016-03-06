@@ -26,6 +26,12 @@ I gave it version 0.17.2, which is one patch up from libxmljs-mt.
 
 LibXML bindings for [node.js](http://nodejs.org/)
 
+Install with:
+
+```shell
+npm install libxmljs
+```
+
 ```javascript
 var libxmljs = require("libxmljs");
 var xml =  '<?xml version="1.0" encoding="UTF-8"?>' +
@@ -60,17 +66,34 @@ Check out the wiki [http://github.com/polotek/libxmljs/wiki](http://github.com/p
 
 See the [examples](https://github.com/polotek/libxmljs/tree/master/examples) folder.
 
-## Installation via [npm](https://npmjs.org)
 
-```shell
-npm install libxmljs
+## Contributing
+
+To do development, so these once:
+
+```
+npm install -g node-gyp
+npm install
+npm test
+npm link
 ```
 
-## Contribute
+From then on, if you make changes:
 
-Start by checking out the [open issues](https://github.com/polotek/libxmljs/issues?labels=&page=1&state=open). Specifically the [desired feature](https://github.com/polotek/libxmljs/issues?labels=desired+feature&page=1&state=open) ones.
+```
+make         #=> incremental build
+npm build .  #=> complete rebuild
+npm test
+```
+
+Start by checking out the [open 
+issues](https://github.com/polotek/libxmljs/issues?labels=&page=1&state=open). 
+Specifically the [desired 
+feature](https://github.com/polotek/libxmljs/issues?labels=desired+feature&page=1&state=open) ones.
 
 ### Requirements
 
-Make sure you have met the requirements for [node-gyp](https://github.com/TooTallNate/node-gyp#installation). You DO NOT need to manually install node-gyp; it comes bundled with node.
+Make sure you have met the requirements for 
+[node-gyp](https://github.com/TooTallNate/node-gyp#installation). You DO NOT 
+need to manually install node-gyp; it comes bundled with node.
 
